@@ -2,9 +2,10 @@ import requests
 from scrape_website import scrape_website_tool
 from autogen_summary import llm_summary
 import re
+from utils import get_notion_api_key, get_page_id
 
-NOTION_API_KEY = "NOTION API KEY"
-PAGE_ID = "NOTION PAGE ID"
+NOTION_API_KEY = get_notion_api_key()
+PAGE_ID = get_page_id()
 NOTION_API_URL = 'https://api.notion.com/v1'
 NOTION_VERSION = '2022-06-28'
 
