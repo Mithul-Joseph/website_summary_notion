@@ -2,8 +2,7 @@
 This project aims to use the power of open source LLMS to summarize the content of a website and paste them as a page in the Notion app.
 
 ## Overview
-This project allows users to input a URL, scrape the content from the specified website, summarize the content using a Large Language Model (LLM), and automatically add the summary as a new page in the Notion app.
-I've used Autogen here and created an agent to summarise the content. Please feel free to change this part and summarize the content directly without the agent.
+This project allows users to input a URL, scrape the content from the specified website, summarize the content using a Large Language Model (LLM), and automatically add the summary as a new page in the Notion app. This was done using open source tools like Ollama and Autogen, with Llama3 as the LLM in this instance. I've used Autogen here and created an agent to summarise the content. Please feel free to change this part and summarize the content directly without the agent.
 
 ## Features
 - **Content Scraping**: The application scrapes the content from the provided URL. Note: Please check if the website allows scraping of their content.
