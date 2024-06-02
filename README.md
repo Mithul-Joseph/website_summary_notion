@@ -29,11 +29,12 @@ I've used Autogen here and created an agent to summarise the content. Please fee
 
 ## Usage
 
-1. Install requirements
-2. Run main.py
-3. Enter a valid URL in the input field.
-4. The application will process the content and generate a summary.
-5. The summary will be added as a new page in your Notion workspace.
+1. Run your desired LLM using Ollama in the background. 
+2. Install required dependencies.
+3. Run main.py
+4. Enter a valid URL in the input field.
+5. The application will process the content and generate a summary.
+6. The summary will be added as a new page in your Notion workspace.
 
 ## Acknowledgements
 
