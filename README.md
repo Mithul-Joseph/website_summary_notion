@@ -23,7 +23,6 @@ This project allows users to input a URL, scrape the content from the specified 
 ### Prerequisites
 - Python 3.7 or higher
 - Notion API token
-- OpenAI API key
 - Ollama
 
 ## Usage
@@ -37,7 +36,6 @@ This project allows users to input a URL, scrape the content from the specified 
 
 ## Acknowledgements
 
-- [OpenAI](https://openai.com/)
 - [Notion](https://www.notion.so/)
 - [Ollama](https://ollama.com/)
 - [Llama3](https://llama.meta.com/llama3/)
